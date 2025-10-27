@@ -92,6 +92,11 @@ body {
     border-radius: 25px;
 }
 
+.socials a {
+    color: white;
+    text-decoration: none;
+}
+
 #x {
     text-align: center;
     position: relative;
