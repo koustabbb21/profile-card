@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -33,4 +36,111 @@ body {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#social-media-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+}
+
+#profession {
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    top: 15px;
+}
+
+/* #social-media {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20px;
+}
+
+.social-icons {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#facebook {
+    background-image: url("images/fb-logo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#instagram {
+    background-image: url("images/instagram-logo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#linkedin {
+    background-image: url("images/linkedin-logo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#github {
+    background-image: url("images/github-logo.png");
+    background-size: cover;
+    background-position: center;
+} */
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* align-content: space-evenly; */
+}
+
+.socials {
+    height: 30px;
+    width: 100px;
+    padding: 4px 0px 0px 0px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(0, 115, 255);
+    border-radius: 25px;
+}
+
+#x {
+    text-align: center;
+    position: relative;
+    left: 20px;
+}
+
+#linkedin {
+    text-align: center;
+    position: relative;
+    right: 20px;
+}
+
+#github {
+    text-align: center;
+    position: relative;
+    left: 20px;
+    bottom: 25px;
+}
+
+#instagram {
+    text-align: center;
+    position: relative;
+    right: 20px;
+    bottom: 25px;
 }
