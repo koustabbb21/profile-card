@@ -85,8 +85,9 @@ body {
 .socials {
     height: 30px;
     width: 100px;
-    padding: 4px 0px 0px 0px;
+    padding: 6px 0px 0px 0px;
     margin: 10px;
+    font-size: 13px;
     color: white;
     background-color: rgb(0, 115, 255);
     border-radius: 25px;
@@ -103,10 +104,22 @@ body {
     left: 20px;
 }
 
+#x:hover {
+    width: 130px;
+    background-color: rgba(0, 255, 0, 0.5);
+    transition: all 1s linear 0s;
+}
+
 #linkedin {
     text-align: center;
     position: relative;
     right: 20px;
+}
+
+#linkedin:hover {
+    width: 130px;
+    background-color: rgba(0, 255, 0, 0.5);
+    transition: all 1s linear 0s;
 }
 
 #github {
@@ -116,9 +129,21 @@ body {
     bottom: 25px;
 }
 
+#github:hover {
+    width: 130px;
+    background-color: rgba(0, 255, 0, 0.5);
+    transition: all 1s linear 0s;
+}
+
 #instagram {
     text-align: center;
     position: relative;
     right: 20px;
     bottom: 25px;
+}
+
+#instagram:hover {
+    width: 130px;
+    background-color: rgba(0, 255, 0, 0.5);
+    transition: all 1s linear 0s;
 }
