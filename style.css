@@ -32,7 +32,7 @@ body {
 
 #purple-background {
     height: 34%;
-    background-color: rgba(179, 0, 255, 0.75);
+    background-color: rgb(0, 115, 255);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
