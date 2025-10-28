@@ -107,7 +107,7 @@ body {
 #x:hover {
     width: 130px;
     background-color: rgba(0, 255, 0, 0.5);
-    transition: all 1s linear 0s;
+    transition: all 0.5s linear 0s;
 }
 
 #linkedin {
@@ -119,7 +119,7 @@ body {
 #linkedin:hover {
     width: 130px;
     background-color: rgba(0, 255, 0, 0.5);
-    transition: all 1s linear 0s;
+    transition: all 0.5s linear 0s;
 }
 
 #github {
@@ -132,7 +132,7 @@ body {
 #github:hover {
     width: 130px;
     background-color: rgba(0, 255, 0, 0.5);
-    transition: all 1s linear 0s;
+    transition: all 0.5s linear 0s;
 }
 
 #instagram {
@@ -145,5 +145,5 @@ body {
 #instagram:hover {
     width: 130px;
     background-color: rgba(0, 255, 0, 0.5);
-    transition: all 1s linear 0s;
+    transition: all 0.5s linear 0s;
 }
